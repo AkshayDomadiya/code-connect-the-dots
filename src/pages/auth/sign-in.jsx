@@ -8,11 +8,11 @@ import SignInForm from "./components/SignInForm";
 
 export function SignIn() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 flex items-center justify-center p-4 relative overflow-hidden">
+    <div className="min-h-screen  flex items-center justify-center p-4 relative overflow-hidden">
       {/* Background decorative elements */}
-      <div className="absolute inset-0 bg-black/20"></div>
+      {/* <div className="absolute inset-0 bg-black/20"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-pink-400 to-purple-600 rounded-full opacity-20 blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full opacity-20 blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full opacity-20 blur-3xl"></div> */}
       
       <div className="w-full max-w-6xl mx-auto flex bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/20 overflow-hidden relative z-10">
         <WelcomePanel />
@@ -33,7 +33,7 @@ export function SignIn() {
               </Typography>
             </div>
 
-            <DemoCredentials />
+            {/* <DemoCredentials /> */}
             <SignInForm />
           </div>
         </div>

@@ -5,13 +5,13 @@ import { BuildingOfficeIcon, SparklesIcon, ShieldCheckIcon, ChartBarIcon } from 
 
 export function WelcomePanel() {
   return (
-    <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-indigo-600 via-purple-700 to-pink-600 items-center justify-center p-12 relative overflow-hidden">
+    <div className="hidden lg:flex bg-gradient-to-br from-blue-400 to-blue-600  items-center justify-center p-12 relative overflow-hidden">
       {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
+      {/* <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full opacity-20"></div>
         <div className="absolute bottom-20 right-10 w-20 h-20 bg-white rounded-full opacity-15"></div>
         <div className="absolute top-1/2 right-20 w-16 h-16 bg-white rounded-full opacity-10"></div>
-      </div>
+      </div> */}
       
       <div className="relative z-10 text-center text-white max-w-md">
         <div className="mb-8">
